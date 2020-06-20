@@ -1,4 +1,4 @@
-if(process.env.NODE_ENV = 'development'){
+if(process.env.NODE_ENV == 'development'){
     //Permitir trabajar con las variables de entorno
 require('dotenv').config(); 
 }    
